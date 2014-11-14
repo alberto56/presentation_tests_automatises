@@ -132,7 +132,7 @@
 #############
 
 - id: 9equipe
-  title: Tuyau No. 9 (bonus) - Appropriez-vous les tests en tant qu'équipe, le pas les imposer.
+  title: Tuyau No. 9 (bonus) - Appropriez-vous les tests en tant qu'équipe, ne pas les imposer.
   desc: |
     Si vous êtes le seul à vouloir que vos tests échouent s'il y a un espace de trop dans votre code, vos collègues n'accepteront pas le processus.
 
