@@ -1,0 +1,30 @@
+#############
+#
+# Voir dcycleproject.org
+#
+# Auteur: Albert Albala (@alberto56)
+#
+# Cette présentation utilise:
+#
+#  * [Deck.js](http://imakewebthings.com/deck.js/) pour le code
+#  * GitHub et GitHub Pages pour l'hébergement
+#  * [Jekyll](http://jekyllrb.com) pour convertir le YML en HTML et deck.js
+#
+# See https://github.com/alberto56/presentation_tests_automatises
+# See http://alberto56.github.io/presentation_tests_automatises/
+#
+#############
+
+- id: intro-me
+  title: Les tests automatisés -- huit tuyaux qui augmenteront vos chances de succès
+  desc: |
+
+     * Albert Albala (alberto56)
+     * Worked with STM, CGI, Koumbit, TP1, now with Linux Foundation
+     * Interests: Testing, Continuous integration, Deployment
+
+    Ceci est une présentation ouverte, que vous pouvez cloner ou modifier sur [GitHub (https://github.com/alberto56/presentation_tests_automatises)](GitHub (https://github.com/alberto56/presentation_tests_automatises).
+
+#############
+
+
