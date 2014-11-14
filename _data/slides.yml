@@ -1,30 +1,145 @@
 #############
 #
-# Voir dcycleproject.org
+# See dcycleproject.org
 #
-# Auteur: Albert Albala (@alberto56)
+# Authored by Albert Albala (@alberto56)
 #
-# Cette présentation utilise:
+# This slideshow uses
 #
-#  * [Deck.js](http://imakewebthings.com/deck.js/) pour le code
-#  * GitHub et GitHub Pages pour l'hébergement
-#  * [Jekyll](http://jekyllrb.com) pour convertir le YML en HTML et deck.js
+#  * [Deck.js](http://imakewebthings.com/deck.js/) for the slideshow
+#  * GitHub and GitHub Pages for hosting
+#  * [Jekyll](http://jekyllrb.com) for converting yaml into HTML for deck.js
 #
-# See https://github.com/alberto56/presentation_tests_automatises
-# See http://alberto56.github.io/presentation_tests_automatises/
+# See https://github.com/alberto56/dcycle_3_day_training
+# See http://alberto56.github.io/dcycle_3_day_training/
 #
 #############
 
 - id: intro-me
-  title: Les tests automatisés -- huit tuyaux qui augmenteront vos chances de succès
+  title: Les tests automatisés <br/> huit tuyaux qui augmenteront vos chances de succès
   desc: |
+    Albert Albala (alberto56)
 
-     * Albert Albala (alberto56)
-     * Worked with STM, CGI, Koumbit, TP1, now with Linux Foundation
-     * Interests: Testing, Continuous integration, Deployment
+    TP1 (STM.info), CGI (Fondation 24h Tremblant), Fondation Linux, Koumbit
 
-    Ceci est une présentation ouverte, que vous pouvez cloner ou modifier sur [GitHub (https://github.com/alberto56/presentation_tests_automatises)](https://github.com/alberto56/presentation_tests_automatises/edit/gh-pages/_data/slides.yml).
+    Spécialités: Tests, intégration continue, Deployment standardisé
+
+    Cette présentation est ouverte. Vous pouvez la [cloner ou la modifier sur GitHub](https://github.com/alberto56/presentation_tests_automatises/edit/gh-pages/_data/slides.yml)
 
 #############
 
+- id: qui
+  title: À qui s'adresse cette présentation ?
+  desc: |
+    Qui êtes-vous ?
 
+     * Développeurs ?
+     * Clients ?
+     * PO ?
+     * ScrumMaster ?
+
+#############
+
+- id: 1ci
+  title: Tuyau No. 1 - Installez un serveur d'intégration continue.
+  desc: |
+    Un serveur d'intégration continue doit:
+
+     * Être visible à l'équipe
+     * Être toujours vert
+     <img src="https://pbs.twimg.com/media/BvqKFnICQAAQbPB.png:large" />
+
+#############
+
+- id: 2deploy
+  title: Tuyau No. 2 - Standardisez votre déploiement
+  desc: |
+    Ne déployez pas avec une napkin.
+
+     * Pour un serveur: Puppet, Chef, Ansible, Vagrant
+     * Pour Drupal: Features
+     * Trouvez l'outil de gestion de configuration pour votre projet
+     * Standardisez vos environnements, n'en faites pas des oeuvres d'art.
+     <img src="http://ops.fhwa.dot.gov/publications/telecomm_handbook/images/fig5-3.gif" />
+
+#############
+
+- id: 3effort
+  title: Tuyau No. 3 - Comprenez l'effort requis
+  desc: |
+    Doublez vos estimez en points
+
+     * Vous récurérez ces points plus tard.
+     <img src="http://dcycleproject.org/sites/dcycleproject.org/files/pyramid2.png" />
+
+#############
+
+- id: 4graduel
+  title: Tuyau No. 4 - Commencez en douceur
+  desc: |
+    Vous avez un système complexe avec aucun test.
+
+     * Ne tentez pas d'ajouter des tests pour tout d'un coup.
+     * Écrivez un seul test très simple.
+     * En réparant un bogue ou en ajoutant une fonction, testez les changements.
+
+#############
+
+- id: 5humilite
+  title: Tuyau No. 5 - Vous n'êtes pas aussi bon que vous ne le croyez
+  desc: |
+    Vous allez entendre:
+
+     * "C'est super simple, on n'a pas besoin de tester"
+     * "Ce code est très beau, on n'a pas besoin de tests"
+     * Pratiquez-vous avec ce qui est facile
+     * ...et vous pourrez tester ce qui est complexe.
+
+#############
+
+- id: 6pyramide
+  title: Tuyau No. 6 - Commencez avec ce qui est plus facile
+  desc: |
+    Commencez en-bas de la pyramide
+
+     * Des outils comme Behat et Selenium sont impressionants
+     * Commencez toutefois avec de simples tests unitaires
+     * Gardez vos tests en-deça de 30 minutes
+     <img src="http://dcycleproject.org/sites/dcycleproject.org/files/pyramid.png" />
+
+#############
+
+- id: 7devs
+  title: Tuyau No. 7 - Ne sous-estimez pas la capacité de vos développeurs de ne pas écrire de tests
+  desc: |
+    Quels outils pour amenez vos devs à faire écrire des tests?
+
+     * TDD (Développement piloté par les tests).
+     * Outils automatisés de couverture de code
+     <img src="http://wiki.civicrm.org/confluence/download/attachments/23724109/Picture+5.png?version=1&modificationDate=1256651688000" />
+
+#############
+
+- id: 8processus
+  title: Tuyau No. 8 - Ne contournez pas votre processus
+  desc: |
+    Que feriez-vous si :
+
+     * Un bogue important affecte votre outil et vous n'avez pas le temps de passer par votre processus ?
+     * "Faire une exception" vous ferait gagner 5 heures ?
+
+#############
+
+- id: 9equipe
+  title: Tuyau No. 9 (bonus) - Appropriez-vous les tests en tant qu'équipe, le pas les imposer.
+  desc: |
+    Si vous êtes le seul à vouloir que vos tests échouent s'il y a un espace de trop dans votre code, vos collègues n'accepteront pas le processus.
+
+#############
+
+- id: questions
+  title: Questions?
+  desc: |
+    Merci!
+
+#############
