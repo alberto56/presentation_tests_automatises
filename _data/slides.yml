@@ -112,10 +112,18 @@
   desc: |
     Commencez en-bas de la pyramide
 
+     <img src="http://dcycleproject.org/sites/dcycleproject.org/files/pyramid.png" />
+
+#############
+
+- id: 6pyramide
+  title: Tuyau No. 6 - Commencez avec ce qui est plus facile
+  desc: |
+    Commencez en-bas de la pyramide
+
      * Des outils comme Behat et Selenium sont impressionants
      * Commencez toutefois avec de simples tests unitaires
      * Gardez vos tests en-deça de 30 minutes
-     <img src="http://dcycleproject.org/sites/dcycleproject.org/files/pyramid.png" />
 
 #############
 
