@@ -19,7 +19,7 @@
 - id: intro-me
   title: Les tests automatisés <br/> huit tuyaux qui augmenteront vos chances de succès
   desc: |
-    Albert Albala (alberto56)
+    Albert Albala (@alberto56)
 
     TP1 (STM.info), CGI (Fondation 24h Tremblant), Fondation Linux, Koumbit
 
@@ -48,6 +48,15 @@
 
      * Être visible à l'équipe
      * Être toujours vert
+     * Être non-intrusif
+     * Donner de l'information d'affaires sur la qualité du code
+     * Guider le refactoring
+
+#############
+
+- id: 1ci-exemple
+  title: Exemple d'un serveur d'intégration continue.
+  desc: |
      <img src="https://pbs.twimg.com/media/BvqKFnICQAAQbPB.png:large" />
 
 #############
@@ -142,5 +151,9 @@
   title: Questions?
   desc: |
     Merci!
+    
+    Albert Albala 
+    _@alberto56_
+
 
 #############
