@@ -61,6 +61,15 @@
 
 #############
 
+- id: 2deploy-napkin
+  title: Tuyau No. 2 - Standardisez votre déploiement
+  desc: |
+    Ne déployez pas avec une napkin.
+
+     <img src="http://ops.fhwa.dot.gov/publications/telecomm_handbook/images/fig5-3.gif" />
+
+#############
+
 - id: 2deploy
   title: Tuyau No. 2 - Standardisez votre déploiement
   desc: |
@@ -70,7 +79,6 @@
      * Pour Drupal: Features
      * Trouvez l'outil de gestion de configuration pour votre projet
      * Standardisez vos environnements, n'en faites pas des oeuvres d'art.
-     <img src="http://ops.fhwa.dot.gov/publications/telecomm_handbook/images/fig5-3.gif" />
 
 #############
 
