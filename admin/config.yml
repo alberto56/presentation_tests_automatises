@@ -2,8 +2,8 @@ backend:
   name: github
   repo: alberto56/presentation_tests_automatises
   branch: gh-pages
-  base_url: https://suresh-issue-82.dcycleproject.org
-  auth_endpoint: /auth/github/repo/694f513c18f56cc3582664e1
+  base_url: https://app.staticauth.com
+  auth_endpoint: /auth/github/repo/696663ba8a3239f2047175ca
 media_folder: static/uploads
 public_folder: /uploads
 collections:
